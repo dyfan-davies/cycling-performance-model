@@ -575,7 +575,7 @@ if file_path:
                             "Avg Power (W)": f"{actual_power:.0f}", # <--- CHANGED: Shows reality
                             "Zone": zone_label
                         })
-                    st.dataframe(flat_metrics, hide_index=True, use_container_width=True)
+                    st.dataframe(flat_metrics, hide_index=True, width="stretch")
 
             else:
                 total_mass = rider_mass + bike_mass
