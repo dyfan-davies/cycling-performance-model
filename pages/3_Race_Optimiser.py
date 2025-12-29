@@ -407,7 +407,7 @@ if file_path:
             c2.metric("Elevation Gain", f"{total_climb:.0f} m")
 
         st.markdown("---")
-        if st.button("🧬 Start Evolutionary Optimisation", type="primary", use_container_width=True):
+        if st.button("🧬 Start Evolutionary Optimisation", type="primary", width="stetch"):
             if rider_mass <= 0 or bike_mass <= 0 or cda <= 0:
                 st.error("❌ Physics Error: Inputs must be > 0.")
                 st.stop()
