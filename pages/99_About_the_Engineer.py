@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Page Config
-st.set_page_config(page_title="About the Engineer", page_icon="👨‍💻")
+st.set_page_config(page_title="About the Engineer", page_icon="🚴")
 
 # Main Title
 st.title("👨‍💻 About the Engineer")
