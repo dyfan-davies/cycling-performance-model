@@ -15,7 +15,7 @@ st.title("Cycling Performance Modeller")
 st.markdown("""
 **Analyse your cycling performance on any route.** Simply upload a **GPX file** (exported from Strava, Garmin, RideWithGPS, etc.) or test the tool immediately using one of the built-in demo files.
 
-This model uses real-world physics—accounting for your power, weight, gravity and wind to predict exactly how you will perform on race day.
+This model uses real-world physics, accounting for your power, weight, gravity and wind to predict exactly how you will perform on race day.
 
 ### Which tool should I use?
 
