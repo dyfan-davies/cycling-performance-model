@@ -196,7 +196,7 @@ if demo_choice != "None":
         "Rolling / Punchy (Box Hill)": "Demo_Rolling_BoxHill.gpx",
         "Hilly Time Trial (Tour de France)": "Demo_Hilly_Tour.gpx",
         "Flat Course (Vuelta a España)": "Demo_Flat_Vuelta.gpx",
-        "Mountain Time Trial (Tour de Romandie)": "Demo_Mountain_Romandie.gpx"
+        "Mountain Time Trial (Hourquette d'Ancizan)": "Demo_Mountain_Hourquette_dAncizan.gpx"
     }
     
     selected_file = demo_files.get(demo_choice)
