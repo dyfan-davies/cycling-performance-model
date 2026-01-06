@@ -342,7 +342,7 @@ with st.expander("⚙️ Configure Genetic Algorithm", expanded=True):
     
     st.warning("⚠️ **Performance Warning:** For long courses (>50 km) or routes with frequent gradient changes, a setting of 10 can still lead to timeouts. If the app becomes unresponsive, reduce these values.")
 
-    enable_cornering = st.checkbox("Enable Advanced Cornering Physics", value=False, help="Uncheck to prevent phantom braking on noisy GPX files.")
+    enable_cornering = st.checkbox("Enable Advanced Cornering Physics", value=False, help="Uncheck to prevent phantom braking on noisy GPX files. Note: When enabled, you may see sharp downward 'spikes' (drops to 0W) in the power chart—these represent the rider braking for corners.")
     st.caption("**Note:** Automatic segmentation is in beta. For optimal results using custom manual segmentation, please contact the engineer for a full analysis with manual segmentation.")
     
 # --- FILE INPUT ---
