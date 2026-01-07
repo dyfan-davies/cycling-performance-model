@@ -338,7 +338,7 @@ with st.expander("⚙️ Configure Genetic Algorithm", expanded=True):
     Generally, higher ***Population*** and ***Generations*** values allow the algorithm to find a faster, more perfect strategy, but they take significantly longer to compute.
     * **Higher Population:** Explores a wider variety of tactics.
     * **More Generations:** Refines the best tactics to perfection.
-    *(These are capped in this demo to ensure the results load quickly).*
+    *(These are capped in this demo to maintain stability, as the shared server resources would struggle to handle the heavy computational load).*
     """)
     st.markdown("---")
     
