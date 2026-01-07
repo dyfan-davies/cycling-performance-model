@@ -24,7 +24,7 @@ Thanks again for taking the time to look at my project! I have some more info on
 Please reach out if you have any questions or would like to discuss anything; my details are at the bottom of the page!
 ### 💼 My Background
 I hold an MPhys in Physics from Cardiff University and an MSc in Sports Engineering from Sheffield Hallam University. 
-My career has given me the opportunity to work across projects in both academia and industry. I've worked on projects ranging from fundamental research in controlled laboratory conditions to the implementation of critical technology in messy, real-world sporting environments. This work has taken me to stadiums and facilities across 15 countries.
+My career has given me the opportunity to work across projects in both academia and industry. I've worked on projects ranging from fundamental research in controlled laboratory conditions to the implementation of critical technology in messy, real-world sporting environments. This work has taken me to stadiums and facilities across 15 countries spanning 3 continents.
 
 **Key Highlights:**
 * My Master's research on youth football head impacts became the first published paper from a FIFA partnership
