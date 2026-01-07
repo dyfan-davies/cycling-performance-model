@@ -220,7 +220,7 @@ w_prime_kj = st.sidebar.number_input(
 w_prime_j = w_prime_kj * 1000.0 
 st.sidebar.caption(
     "ℹ️ **Realism Constraint:** This value limits how long the rider can surge above Threshold. "
-    "It prevents the model from choosing unrealistic strategies (e.g., sprinting for 10 minutes) "
+    "It prevents the model from choosing unrealistic strategies (e.g. sprinting for 10 minutes) "
     "by forcing the rider to recover if this battery is depleted."
 )
 
