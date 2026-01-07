@@ -145,8 +145,7 @@ with col_upload:
         )
         
         st.info(
-            "⚠️ **File Type:** Upload a **.GPX** file only."
-            "HTML, FIT, or TCX files will not work."
+            "⚠️ **File Type:** Upload a **.GPX** file only. HTML, FIT, or TCX files will not work."
         )
 
 with col_demo: 
