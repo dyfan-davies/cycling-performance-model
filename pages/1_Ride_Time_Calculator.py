@@ -381,7 +381,7 @@ if file_path:
                 st.caption(
                     "⚠️ **Note on Accuracy:** These values are estimates based on standard metabolic efficiency (~24%). "
                     "**Crucially, this simple calculator assumes a high-intensity effort (Threshold).** "
-                    "For precise nutrition planning that accounts for your specific fitness zones (e.g., burning more fat at lower intensities), "
+                    "For precise nutrition planning that accounts for your specific fitness zones (e.g. burning more fat at lower intensities), "
                     "please use the **Race Strategy Optimiser**, which includes a full FTP-based physiological model."
                 )
                 
