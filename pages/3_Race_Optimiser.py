@@ -366,6 +366,11 @@ with col_upload:
             help="Ensure name of file ends with '.gpx'"
         )
 
+        st.info(
+            "⚠️ **File Type:** Upload a **.GPX** file only."
+            "HTML, FIT, or TCX files will not work."
+        )
+
 with col_demo: 
     st.write("")
     st.write("")
