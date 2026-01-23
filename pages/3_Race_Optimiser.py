@@ -400,23 +400,23 @@ else:
     wind_deg = wind_cardinal[wind_choice]
 st.sidebar.caption(f"Wind from {wind_deg}° ({get_wind_cardinal(wind_deg)})")
 
-"""
+
 #st.sidebar.header("6. Cornering Grip (Friction)")
-friction_options = {
-    "Dry New Tarmac (Excellent Grip)": 0.90,
-    "Dry Worn Tarmac (Standard)": 0.80,
-    "Wet Tarmac": 0.60,
-    "Gravel / Dirt": 0.55,
-    "Ice / Snow": 0.20
-}
-friction_choice = st.sidebar.selectbox(
-    "Road Surface Grip", 
-    list(friction_options.keys()), 
-    index=1,
-    help="Determines how fast you can corner before braking is required. Lower values (Wet/Gravel) force the rider to slow down significantly for turns."
-)
-friction_mu = friction_options[friction_choice]
-"""
+#friction_options = {
+#    "Dry New Tarmac (Excellent Grip)": 0.90,
+#    "Dry Worn Tarmac (Standard)": 0.80,
+#    "Wet Tarmac": 0.60,
+#    "Gravel / Dirt": 0.55,
+#    "Ice / Snow": 0.20
+#}
+#friction_choice = st.sidebar.selectbox(
+#    "Road Surface Grip", 
+#    list(friction_options.keys()), 
+#    index=1,
+#    help="Determines how fast you can corner before braking is required. Lower values (Wet/Gravel) force the rider to slow down significantly for turns."
+#)
+#friction_mu = friction_options[friction_choice]
+
 
 # Sidebar Footer
 st.sidebar.markdown("---")
