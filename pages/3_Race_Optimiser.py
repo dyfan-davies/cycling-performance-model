@@ -150,6 +150,7 @@ def plot_comparative_analysis(log_baseline: List[Dict], log_optimized: List[Dict
     ax1.plot(dist_base, power_base, label='Constant Power (Baseline)', color='tab:red', linewidth=2, alpha=0.7)
     ax1.plot(dist_opt, power_opt, label='Optimised Strategy', color='tab:blue', linewidth=2, linestyle='--')
     
+    ax1.set_title('Constant vs Optimised Power Pacing Over Course Profile', fontsize=14, pad=33, fontweight = 'bold')
     ax1.set_xlabel('Distance (km)', fontsize=12)
     ax1.set_ylabel('Power (Watts)', color='black', fontsize=12)
     ax1.set_xlim(0, max_dist)
@@ -171,6 +172,7 @@ def plot_comparative_analysis(log_baseline: List[Dict], log_optimized: List[Dict
     ax2.plot(dist_base, speed_base, label='Constant Power Speed', color='tab:red', linewidth=2, alpha=0.6)
     ax2.plot(dist_opt, speed_opt, label='Optimised Speed', color='tab:blue', linewidth=2, linestyle='--')
 
+    ax2.set_title('Speed Response to Constant vs Optimised Power Profiles', fontsize=14, pad=25, fontweight = 'bold')
     ax2.set_xlabel('Distance (km)', fontsize=12)
     ax2.set_ylabel('Speed (km/h)', fontsize=12)
     ax2.set_xlim(0, max_dist)
@@ -212,7 +214,7 @@ def plot_pacing_strategy_guide(course_name, gpx_track_points, optimized_power_pr
         target_power_curve.append(watts)
 
     fig, ax1 = plt.subplots(figsize=(16, 8))
-    ax1.set_title(f'Rider Pacing Strategy Guide: {course_name}', fontsize=16, fontweight='bold')
+    ax1.set_title(f'Rider Pacing Strategy Guide: {course_name}', fontsize=16, pad = 15, fontweight='bold')
 
     # Elevation Background
     color_elev = 'tab:gray'
@@ -274,11 +276,11 @@ def plot_pacing_strategy_guide(course_name, gpx_track_points, optimized_power_pr
 
     max_power = max(optimized_power_profile) if optimized_power_profile else 300
     ax2.set_ylim(0, max_power * 1.5) 
-    
-    ftp_label = f"FTP ({int(rider_ftp)}W)"
-    ax2.axhline(y=rider_ftp, color='gray', linestyle='--', linewidth=1, alpha=0.8, label=ftp_label)
-    ax2.text(distances_km[0], rider_ftp + 5, ftp_label, color='gray', fontsize=9, ha='left', va='bottom')
 
+    ftp_label = f"FTP"#" ({int(rider_ftp)}W)"
+    ax2.axhline(y=rider_ftp, color='red', linestyle='--', linewidth=1, alpha=0.8, label=ftp_label)
+    ax2.text(distances_km[0], rider_ftp + 5, ftp_label, color='red', fontsize=9, ha='left', va='bottom')
+    
     # Legend
     lines_1, labels_1 = ax1.get_legend_handles_labels()
     lines_2, labels_2 = ax2.get_legend_handles_labels()
