@@ -47,7 +47,7 @@ I hold an MPhys in Physics from Cardiff University and an MSc in Sports Engineer
 My career has given me the opportunity to work across projects in both academia and industry. I've worked on projects ranging from fundamental research in controlled laboratory conditions to the implementation of critical technology in messy, real-world sporting environments. This work has taken me to stadiums and facilities across 15 countries spanning 3 continents.
 
 **Key Highlights:**
-* My Master's research on youth football head impacts became the first published paper from a FIFA partnership
+* My Master's research on youth football head impacts became the first published paper from a FIFA partnership.
 * Awarded the Centre for Sports Engineering Research Prize.
 * Served as a member of the New Zealand Rugby Research Advisory Panel.
 """)
