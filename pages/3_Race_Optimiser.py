@@ -401,7 +401,7 @@ else:
 st.sidebar.caption(f"Wind from {wind_deg}° ({get_wind_cardinal(wind_deg)})")
 
 """
-st.sidebar.header("6. Cornering Grip (Friction)")
+#st.sidebar.header("6. Cornering Grip (Friction)")
 friction_options = {
     "Dry New Tarmac (Excellent Grip)": 0.90,
     "Dry Worn Tarmac (Standard)": 0.80,
