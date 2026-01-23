@@ -31,7 +31,23 @@ import analytics
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Inject Google Analytics (Optional)
-analytics.inject_ga()
+#analytics.inject_ga()
+def inject_ga():
+    # Replace G-XXXXXXXXXX with your actual Tracking ID
+    GA_ID = "G-XXXXXXXXXX"
+    
+    # Note: Streamlit runs components in an iframe, so this isn't perfect, 
+    # but it works without crashing the server.
+    ga_code = f"""
+    <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', '{GA_ID}');
+    </script>
+    """
+    st.components.v1.html(ga_code, height=0, width=0)
 
 # _____________________________________________________________________________
 
