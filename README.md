@@ -71,5 +71,5 @@ This project is licensed under the [GNU General Public License v3.0] - see the L
 ---
 
 ### Author
-**Dyfan Davies** *MPhys Physics (Cardiff University) | MSc Sports Engineering (Sheffield Hallam)*
+**Dyfan Davies** *MPhys Physics (Cardiff University) | MSc Sports Engineering (Sheffield Hallam University)*
 [Connect on LinkedIn](https://www.linkedin.com/in/dyfan-davies/)
