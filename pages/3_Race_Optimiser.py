@@ -279,7 +279,7 @@ def plot_pacing_strategy_guide(course_name, gpx_track_points, optimized_power_pr
 
     ftp_label = f"FTP"#" ({int(rider_ftp)}W)"
     ax2.axhline(y=rider_ftp, color='red', linestyle='--', linewidth=1, alpha=0.8, label=ftp_label)
-    ax2.text(distances_km[0], rider_ftp + 5, ftp_label, color='red', fontsize=9, ha='left', va='bottom')
+    ax2.text(distances_km[0], rider_ftp + 5, ftp_label, color='red', fontsize=13, ha='left', va='bottom')
     
     # Legend
     lines_1, labels_1 = ax1.get_legend_handles_labels()
