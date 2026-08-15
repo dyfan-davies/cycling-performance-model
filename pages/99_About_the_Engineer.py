@@ -113,7 +113,7 @@ st.markdown("I've been fortunate enough to work on projects with a range of lead
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("#### **Sporting Organisations & Governing Bodies**")
+    st.markdown("#### **Sport & Performance Organisations**")
     st.markdown("""
     * **ACC** (*NZ national injury and rehabilitation agency*)
     * **Great Britain Cycling Team (British Cycling)**
