@@ -52,7 +52,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.info("**Total Mass ($m$)**\n\nThe combined weight of the rider and bike.")
-    st.info("**Power ($P$)**\n\nWatts generated, adjusted for drivetrain efficiency ($\\eta \approx 96\%$).")
+    st.info("**Power ($P$)**\n\nWatts generated, adjusted for drivetrain efficiency ($\\eta \\approx 96\\%$).")
 
 with col2:
     st.info("**Aerodynamics ($C_d A$)**\n\nDynamic: The rider 'tucks' on descents (reducing drag) and sits up on climbs.")
