@@ -108,33 +108,35 @@ st.markdown("---")
 # --- COLLABORATIONS SECTION (COLUMNS) ---
 # Using 3 columns to organize the lists of organizations horizontally.
 st.subheader("🤝 Collaborations")
-st.markdown("Throughout my career, I've been fortunate enough to work on some projects with leading governing bodies and research institutions:")
-
+st.markdown("I've been fortunate enough to work on projects with a range of leading sporting organisations, technology companies and research institutions:")
 
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("#### **Governing Bodies**")
+    st.markdown("#### **Sporting Organisations & Governing Bodies**")
     st.markdown("""
     * **ACC** (*NZ national injury and rehabilitation agency*)
+    * **Great Britain Cycling Team (British Cycling)**
     * **FIFA**
     * **New Zealand Rugby**
     * **NZ Provincial Rugby Unions** (*North Harbour, Hawke's Bay, Otago & Wairarapa-Bush*)
+    * **Team England**
     * **UEFA**
+    * **UKSI**
     * **World Rugby**
     """)
 
 with col2:
-    st.markdown("#### **Sports Technology**")
+    st.markdown("#### **Sports Technology & Industry**")
     st.markdown("""
     * **Hawk-Eye Innovations**
-    * **HitiQ**
+    * **HITIQ**
     * **Labosport**
     * **Prevent Biometrics**
     """)
 
 with col3:
-    st.markdown("#### **Academia**")
+    st.markdown("#### **Academic & Research Institutions**")
     st.markdown("""
     * **Auckland University of Technology**
     * **Cardiff University**
@@ -148,13 +150,13 @@ st.markdown("---")
 st.markdown("""
 ### 📬 Contact me
 
-[**Connect on LinkedIn**](https://www.linkedin.com/in/dyfan-davies/)
-
 **Want a deeper dive?** The web demo has limits to ensure server stability, but I can run high-fidelity simulations offline. Reach out if you want a run with ***custom manual course segmentation*** or ***expanded generations and population values***.
 
 **Feedback & Bugs:** Your feedback helps improve this tool. If you spot a discrepancy in the physics, find a bug, or have a feature request or suggestion, please let me know!
 
 **Work & Chat:** I’m always happy to connect with people working in ***Engineering***, ***Research*** and ***Research & Development***. If you’d like to discuss science, sport, engineering or anything in between, feel free to connect with me on LinkedIn below!
+
+[**Connect on LinkedIn**](https://www.linkedin.com/in/dyfan-davies/)
 
 """)
 
