@@ -154,8 +154,7 @@ st.markdown("""
 
 **Feedback & Bugs:** Your feedback helps improve this tool. If you spot a discrepancy in the physics, find a bug, or have a feature request or suggestion, please let me know!
 
-**Work & Chat:** I’m currently exploring new opportunities, preferably in ***Engineering***, ***Research*** or ***Research & Development***. If you’d like to discuss potential opportunities, or just chat about science, sport, and anything in between, feel free to connect with me on LinkedIn below!
-
+**Work & Chat:** I’m always happy to connect with people working in ***Engineering***, ***Research*** and ***Research & Development***. If you’d like to discuss science, sport, engineering or anything in between, feel free to connect with me on LinkedIn below!
 
 """)
 
