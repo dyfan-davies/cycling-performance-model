@@ -116,7 +116,7 @@ with col1:
     st.markdown("#### **Sport & Performance Organisations**")
     st.markdown("""
     * **ACC** (*NZ national injury and rehabilitation agency*)
-    * **Great Britain Cycling Team (British Cycling)**
+    * **Great Britain Cycling Team** (*British Cycling*)
     * **FIFA**
     * **New Zealand Rugby**
     * **NZ Provincial Rugby Unions** (*North Harbour, Hawke's Bay, Otago & Wairarapa-Bush*)
